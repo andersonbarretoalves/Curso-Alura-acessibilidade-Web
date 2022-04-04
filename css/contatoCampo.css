@@ -27,7 +27,11 @@
 }
 
 .contatoCampo-checkbox {
-  display: none;
+  /*display: none;*/
+  /*visibility: hidden;*/
+  right: 9999px;
+  position: absolute;
+  opacity: 0;
 }
 
 .contatoCampo-icone {
@@ -40,7 +44,7 @@
 .contatoCampo label,
 .contatoCampo input,
 .contatoCampo textarea {
-  display: block;
+  display: nome;
   width: 100%;
   text-align: left;
 } 
